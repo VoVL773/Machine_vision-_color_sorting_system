@@ -4,7 +4,7 @@
 `ColorTarget` / `ColorTargetArray` 消息，由 `Mvc_sorting` 包完成摄像头采集、HSV
 阈值分割、形态学去噪、轮廓筛选、色块中心计算、ID 跟踪、画面标注和 ROS 话题发布。
 
-![合成场景检测效果（左：标注画面；右：各颜色掩码）](docs/synthetic_preview.png)
+![合成场景检测效果（左：标注画面；右：各颜色掩码）](Machine_vision _color_sorting_system/docs/synthetic_preview.png)
 
 ## 功能
 
@@ -21,7 +21,7 @@
 
 ## 系统结构
 
-![系统结构](docs/struct.png)
+![系统结构](Machine_vision _color_sorting_system/docs/struct.png)
 
 源码结构：
 
@@ -73,7 +73,7 @@ ros2 launch Mvc_sorting color_sorting.launch.py \
   input_type:=synthetic show_window:=false max_frames:=120
 ```
 
-![合成场景检测效果（左：标注画面；右：各颜色掩码）](docs/synthetic_preview.png)
+![合成场景检测效果（左：标注画面；右：各颜色掩码）](Machine_vision _color_sorting_system/docs/synthetic_preview.png)
 
 ### 2. USB / CSI 摄像头
 
@@ -104,7 +104,7 @@ ros2 run Mvc_sorting Mvc_sorting_server --ros-args \
   -p camera_autofocus:=true
 ```
 
-![摄像头演示](docs/test.png)
+![摄像头演示](Machine_vision _color_sorting_system/docs/test.png)
 
 ### 3. 视频文件
 
