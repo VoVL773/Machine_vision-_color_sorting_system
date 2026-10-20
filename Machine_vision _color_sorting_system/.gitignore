@@ -1,0 +1,12 @@
+build/
+install/
+log/
+vscode/
+example/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+docs/*.tmp
+tmp_test/

@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "colors": {
+    "red": {
+      "enabled": true,
+      "wrap_hue": true,
+      "lower": [
+        0,
+        120,
+        70
+      ],
+      "upper": [
+        10,
+        255,
+        255
+      ]
+    },
+    "green": {
+      "enabled": true,
+      "wrap_hue": false,
+      "lower": [
+        40,
+        80,
+        50
+      ],
+      "upper": [
+        85,
+        255,
+        255
+      ]
+    },
+    "blue": {
+      "enabled": true,
+      "wrap_hue": false,
+      "lower": [
+        100,
+        120,
+        70
+      ],
+      "upper": [
+        140,
+        255,
+        255
+      ]
+    },
+    "yellow": {
+      "enabled": true,
+      "wrap_hue": false,
+      "lower": [
+        15,
+        80,
+        80
+      ],
+      "upper": [
+        38,
+        255,
+        255
+      ]
+    }
+  },
+  "filter": {
+    "min_area": 300,
+    "max_area": 0,
+    "min_dimension": 8,
+    "min_fill_ratio": 0.2
+  },
+  "morphology": {
+    "kernel": 5,
+    "iterations": 1,
+    "blur_kernel": 3
+  }
+}
