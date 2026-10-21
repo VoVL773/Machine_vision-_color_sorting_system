@@ -3,7 +3,7 @@
 <package format="3">
   <name>color_sorting_interfaces</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Color sorting vision messages</description>
   <maintainer email="3152398081@qq.com">vovl773</maintainer>
   <license>Apache-2.0</license>
 

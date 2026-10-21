@@ -4,6 +4,8 @@
 `ColorTarget` / `ColorTargetArray` 消息，由 `Mvc_sorting` 包完成摄像头采集、HSV
 阈值分割、形态学去噪、轮廓筛选、色块中心计算、ID 跟踪、画面标注和 ROS 话题发布。
 
+复刻手册更新中-ing
+
 ![合成场景检测效果（左：标注画面；右：各颜色掩码）](docs/synthetic_preview.png)
 
 ## 功能
@@ -53,6 +55,10 @@ source /opt/ros/jazzy/setup.bash
 colcon build --packages-select color_sorting_interfaces Mvc_sorting
 source install/setup.bash
 ```
+
+> **工作区路径必须是纯 ASCII**，不能包含中文；ROS 2 的 rosidl/CMake 在中文路径下可能报
+> `Target dependency ... does not exist` 或 `list index: 1 out of range`。建议使用
+> `~/color_sorting_ws` 这类纯英文路径。空格可以靠引号处理，但中文路径建议直接迁移。
 
 如果之前用不同的安装方式构建过，建议清理对应的 `build/`、`install/` 后重新构建。
 
