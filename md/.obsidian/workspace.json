@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "3c13d64a52608d37",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d139b1094a1dc1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03dfa918d67744e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "七.ROS视觉服务端：Mvc_sorting_server.py.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "七.ROS视觉服务端：Mvc_sorting_server.py"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b1b5485fe9940a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a3ae350a1086327",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b35f25514ecc7274",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "3d9cccf7b9841302",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "5d968cb21a9ee453",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "9011a25c6e65d774",
+    "type": "split",
+    "children": [
+      {
+        "id": "40ab6eaee877a6d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06dfc297f1aa021f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "九.配置、launch与测试.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "ada27146c4f01129",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "九.配置、launch与测试.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "96d0bd2597e4e69b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "3dc2601649dfcdb6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "2c8820c584797bd2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "九.配置、launch与测试.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "03dfa918d67744e1",
+  "lastOpenFiles": [
+    "九.配置、launch与测试.md",
+    "八.订阅客户端：Mvc_sorting_client.py.md",
+    "七.ROS视觉服务端：Mvc_sorting_server.py.md",
+    "六.合成测试场景：image_sources.py.md",
+    "五.中文调参面板：gui.py.md",
+    "四.可视化层：visualization.py.md",
+    "三.检测与跟踪层：color_detector.py.md",
+    "二.包骨架创建与 HSV 配置层.md",
+    "一.接口包(color_sorting_interfaces).md",
+    "未命名 1.base",
+    "README (目录).md",
+    "二.包骨架创建%26hsv_config.py.md",
+    "二.包骨架创建&hsv_config.py.md",
+    "未命名.base",
+    "未命名.md",
+    "未命名 1.md"
+  ]
+}
